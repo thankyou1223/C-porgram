@@ -93,6 +93,42 @@ public:
 		size++;
 	}
 
+	void PopBack()
+	{
+		if (head == nullptr)
+		{
+			cout << "Linked List is Empty" << endl;
+		}
+		else
+		{
+			Node * deleteNode = head;
+			Node * previousNode = nullptr;
+
+			if (size == 1)
+			{
+				head = deleteNode->next;
+
+				delete deleteNode;
+			}
+			else
+			{
+				while (deleteNode->next != nullptr)
+				{
+					previousNode->next = deleteNode->next;
+
+					delete deleteNode;
+				}
+
+				size--;
+			}
+		}
+	}
+
+	const int& Size()
+	{
+		retnrn size;
+	}
+
 	void Show()
 	{
 		Node* currentNode = head;
@@ -123,7 +159,13 @@ public:
 
 		singleLinkedList.PushBack(20);
 
+		cout << singleLinkedList.Size() << end;
+
+
 		singleLinkedList.PopFront();
+		singleLinkedList.PopBack();
+		singleLinkedList.PopBack();
+		singleLinkedList.PopBack();
 
 		singleLinkedList.Show();
 	}
