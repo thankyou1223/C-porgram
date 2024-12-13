@@ -3,17 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0CCEDFA-5A60-4EEF-BF4B-038B99335159}|..\\class(CircularLinkedList)\\class(CircularLinkedList).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class(CircularLinkedList)\\class(CircularLinkedList).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C507CC7F-27C8-4D7A-82E8-99096D9DDA66}|..\\class6th(Circular Queue)\\class6th(Circular Queue).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class6th(Circular Queue)\\class6th(Circular Queue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D2A815-3D9C-4521-B640-72A6E178B214}|..\\class5th(Linear QUeue)\\class5th(Linear QUeue).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD0B88AD-3D5E-4A76-924B-BFCFDDA1CA3F}|Program.vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD0B88AD-3D5E-4A76-924B-BFCFDDA1CA3F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78232F13-67A4-4CAD-ADEB-90FA47875D56}|..\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F0CCEDFA-5A60-4EEF-BF4B-038B99335159}|..\\class(CircularLinkedList)\\class(CircularLinkedList).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class(CircularLinkedList)\\class(CircularLinkedList).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D2DB34B-CDFE-4879-8E6B-80A9F8F2C00B}|..\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD9B2DF-2721-42CE-A146-8ACE5FC36F33}|..\\class4th(stack)\\class4th(stack).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class4th(stack)\\class4th(stack).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78232F13-67A4-4CAD-ADEB-90FA47875D56}|..\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,31 +37,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "class6th(Circular Queue).cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class6th(Circular Queue)\\class6th(Circular Queue).cpp",
+              "RelativeDocumentMoniker": "..\\class6th(Circular Queue)\\class6th(Circular Queue).cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class6th(Circular Queue)\\class6th(Circular Queue).cpp",
+              "RelativeToolTip": "..\\class6th(Circular Queue)\\class6th(Circular Queue).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T05:57:56.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "class5th(Linear QUeue).cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp",
+              "RelativeDocumentMoniker": "..\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp",
+              "RelativeToolTip": "..\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T05:43:50.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "class4th(stack).cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class4th(stack)\\class4th(stack).cpp",
+              "RelativeDocumentMoniker": "..\\class4th(stack)\\class4th(stack).cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class4th(stack)\\class4th(stack).cpp",
+              "RelativeToolTip": "..\\class4th(stack)\\class4th(stack).cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T04:45:52.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "class(CircularLinkedList).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class(CircularLinkedList)\\class(CircularLinkedList).cpp",
               "RelativeDocumentMoniker": "..\\class(CircularLinkedList)\\class(CircularLinkedList).cpp",
               "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class(CircularLinkedList)\\class(CircularLinkedList).cpp",
               "RelativeToolTip": "..\\class(CircularLinkedList)\\class(CircularLinkedList).cpp",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAkwLUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T06:13:56.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "class2th (DoubleLinkedList).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp",
               "RelativeDocumentMoniker": "..\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp",
               "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp",
               "RelativeToolTip": "..\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T04:25:32.806Z"
+              "WhenOpened": "2024-12-12T04:25:32.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T04:44:13.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "class1th (Single Linked Lst).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).cpp",
               "RelativeDocumentMoniker": "..\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).cpp",
@@ -61,19 +123,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T04:44:45.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\Program.cpp",
-              "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\Program.cpp",
-              "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAwFgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T04:44:13.165Z",
               "EditorCaption": ""
             }
           ]
