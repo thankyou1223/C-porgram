@@ -2,51 +2,115 @@
 
 using namespace std;
 
-
-struct Node
+class String
 {
-    int data;
-    Node* left;
-    Node* right;
+private:
+	int size;
+	char* pointer;
+
+public:
+	String()
+	{
+		size = 0;
+		pointer = nullptr;
+	}
+
+	void operator = (const char* word)
+	{
+		size = strlen(word) + 1;
+
+		if (pointer == nullptr)
+		{
+			pointer = new char[size];
+
+			for (int i = 0; i < size; i++)
+			{
+				pointer[i] = word[i];
+			}
+		}
+		else
+		{
+			char* newPointer = new char[size];
+
+			for (int i = 0; i < size; i++)
+			{
+				newPointer[i] = word[i];
+			}
+
+			delete[] pointer;
+
+			pointer = newPointer;
+		}
+
+	}
+
+	void Append(const char* word)
+	{
+		size = strlen(pointer) + strlen(word) + 1;
+
+		char* newPointer = new char[size];
+
+		for (int i = 0; i < strlen(pointer); i++)
+		{
+			newPointer[i] = pointer[i];
+		}
+
+		for (int i = 0; i < strlen(word); i++)
+		{
+			newPointer[strlen(pointer) + i] = word[i];
+		}
+
+		delete[] pointer;
+
+		pointer = newPointer;
+
+	}
+
+	const int& Size()
+	{
+		return size - 1;
+	}
+
+	const char& operator [] (const int& index)
+	{
+		return pointer[index];
+	}
+
+	~String()
+	{
+		if (pointer != nullptr)
+		{
+			delete[] pointer;
+		}
+	}
+
 };
-
-Node* CreateNode(int data, Node* left, Node* right)
-{
-    Node* newNode = new Node();
-
-    newNode->data = data;
-
-    newNode->left = left;
-
-    newNode->right = right;
-
-    return newNode;
-
-}
-
-void Postorder(Node* root)
-{
-    if (root != nullptr)
-    {
-        Postorder(root->left);
-        Postorder(root->right);
-        cout << root->data << " ";
-    }
-}
 
 int main()
 {
-    Node* node7 = CreateNode(7, nullptr, nullptr);
-    Node* node6 = CreateNode(6, nullptr, nullptr);
-    Node* node5 = CreateNode(5, nullptr, nullptr);
-    Node* node4 = CreateNode(4, nullptr, nullptr);
-    Node* node3 = CreateNode(3, node6, node7);
-    Node* node2 = CreateNode(2, node4, node5);
-    Node* node1 = CreateNode(1, node2, node3);
+	String string;
 
-    Postorder(node1);
+	string = "Apple";
 
-    return 0;
+	for (int i = 0; i < string.Size(); i++)
+	{
+		cout << string[i];
+	}
+
+	string = "Banana";
+
+	string.Append("Milk");
+
+	cout << endl;
+
+	for (int i = 0; i < string.Size(); i++)
+	{
+		cout << string[i];
+	}
+	return 0;
+
 }
+
+
 
 

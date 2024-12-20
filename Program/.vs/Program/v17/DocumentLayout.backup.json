@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{CD0B88AD-3D5E-4A76-924B-BFCFDDA1CA3F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3DD1649F-0DAA-4D6F-91C1-8D273285A1BC}|..\\class10th(Binary Tree)\\class10th(Binary Tree).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class10th(Binary Tree)\\class10th(Binary Tree).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EAF49D2-CB36-4C27-B7E9-74E87F8A75F7}|..\\class9th(Hash Table)\\class9th(Hash Table).vcxproj|C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class9th(Hash Table)\\class9th(Hash Table).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -41,11 +44,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 238,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "class10th(Binary Tree).cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class10th(Binary Tree)\\class10th(Binary Tree).cpp",
+              "RelativeDocumentMoniker": "..\\class10th(Binary Tree)\\class10th(Binary Tree).cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class10th(Binary Tree)\\class10th(Binary Tree).cpp",
+              "RelativeToolTip": "..\\class10th(Binary Tree)\\class10th(Binary Tree).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-20T04:40:13.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "class7th(Vector).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class7th(Vector)\\class7th(Vector).cpp",
               "RelativeDocumentMoniker": "..\\class7th(Vector)\\class7th(Vector).cpp",
@@ -57,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "class4th(stack).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class4th(stack)\\class4th(stack).cpp",
               "RelativeDocumentMoniker": "..\\class4th(stack)\\class4th(stack).cpp",
@@ -69,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "class(CircularLinkedList).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class(CircularLinkedList)\\class(CircularLinkedList).cpp",
               "RelativeDocumentMoniker": "..\\class(CircularLinkedList)\\class(CircularLinkedList).cpp",
@@ -81,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "class2th (DoubleLinkedList).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp",
               "RelativeDocumentMoniker": "..\\class2th (DoubleLinkedList)\\class2th (DoubleLinkedList).cpp",
@@ -99,14 +115,14 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-10T04:44:13.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "class9th(Hash Table).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class9th(Hash Table)\\class9th(Hash Table).cpp",
               "RelativeDocumentMoniker": "..\\class9th(Hash Table)\\class9th(Hash Table).cpp",
@@ -114,12 +130,11 @@
               "RelativeToolTip": "..\\class9th(Hash Table)\\class9th(Hash Table).cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-18T06:40:40.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T06:40:40.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "class8th(string).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class8th(string)\\class8th(string).cpp",
               "RelativeDocumentMoniker": "..\\class8th(string)\\class8th(string).cpp",
@@ -131,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "class6th(Circular Queue).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class6th(Circular Queue)\\class6th(Circular Queue).cpp",
               "RelativeDocumentMoniker": "..\\class6th(Circular Queue)\\class6th(Circular Queue).cpp",
@@ -143,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "class5th(Linear QUeue).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp",
               "RelativeDocumentMoniker": "..\\class5th(Linear QUeue)\\class5th(Linear QUeue).cpp",
@@ -155,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "class1th (Single Linked Lst).cpp",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\C-porgram\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).cpp",
               "RelativeDocumentMoniker": "..\\class1th (Single Linked Lst)\\class1th (Single Linked Lst).cpp",
