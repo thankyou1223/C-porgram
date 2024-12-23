@@ -2,114 +2,172 @@
 
 using namespace std;
 
-class String
+template <typename T>
+class BinarySearchTree
 {
 private:
-	int size;
-	char* pointer;
-
-public:
-	String()
+	struct Node
 	{
-		size = 0;
-		pointer = nullptr;
+		T data;
+
+		Node* left;
+		Node* right;
+	};
+
+	Node* root;
+public:
+	BinarySearchTree()
+	{
+		root = nullptr;
 	}
 
-	void operator = (const char* word)
+	bool Find(T data)
 	{
-		size = strlen(word) + 1;
+		Node* currentNode = root;
 
-		if (pointer == nullptr)
+		if (currentNode == nullptr)
 		{
-			pointer = new char[size];
-
-			for (int i = 0; i < size; i++)
-			{
-				pointer[i] = word[i];
-			}
+			return false;
 		}
 		else
 		{
-			char* newPointer = new char[size];
-
-			for (int i = 0; i < size; i++)
+			while (currentNode != nullptr)
 			{
-				newPointer[i] = word[i];
+				if (currentNode->data == data)
+				{
+					return true;
+				}
+				else
+				{
+					if (currentNode->data > data)
+					{
+						currentNode = currentNode->left;
+					}
+					else
+					{
+						currentNode = currentNode->right;
+					}
+				}
 			}
 
-			delete[] pointer;
-
-			pointer = newPointer;
+			return false;
 		}
-
 	}
 
-	void Append(const char* word)
+	void Insert(T data)
 	{
-		size = strlen(pointer) + strlen(word) + 1;
-
-		char* newPointer = new char[size];
-
-		for (int i = 0; i < strlen(pointer); i++)
+		if (root == nullptr)
 		{
-			newPointer[i] = pointer[i];
+			root = CreateNode(data);
 		}
-
-		for (int i = 0; i < strlen(word); i++)
+		else
 		{
-			newPointer[strlen(pointer) + i] = word[i];
+			Node* currentNode = root;
+
+			while (currentNode != nullptr)
+			{
+				if (currentNode->data == data)
+				{
+					return;
+				}
+				else if (currentNode->data > data)
+				{
+					if (currentNode->left == nullptr)
+					{
+						currentNode->left = CreateNode(data);
+						break;
+					}
+					else
+					{
+						currentNode = currentNode->left;
+					}
+				}
+				else
+				{
+					if (currentNode->right == nullptr)
+					{
+						currentNode->right = CreateNode(data);
+
+						break;
+					}
+					else
+					{
+						currentNode = currentNode->right;
+					}
+				}
+			}
+
 		}
 
-		delete[] pointer;
-
-		pointer = newPointer;
-
 	}
 
-	const int& Size()
+	void Inorder(Node* root)
 	{
-		return size - 1;
-	}
-
-	const char& operator [] (const int& index)
-	{
-		return pointer[index];
-	}
-
-	~String()
-	{
-		if (pointer != nullptr)
+		if (root != nullptr)
 		{
-			delete[] pointer;
+			Inorder(root->left);
+			cout << root->data << " ";
+			Inorder(root->right);
 		}
 	}
 
+	void Destroy(Node* root)
+	{
+		if (root != nullptr)
+		{
+			Destroy(root->left);
+
+			Destroy(root->right);
+
+			delete root;
+		}
+	}
+
+	Node* Root()
+	{
+		return root;
+	}
+
+	Node* CreateNode(T data)
+	{
+		Node* newNode = new Node;
+
+		newNode->data = data;
+
+		newNode->left = nullptr;
+
+		newNode->right = nullptr;
+
+		return newNode;
+	}
+
+	~BinarySearchTree()
+	{
+		Destroy(root);
+	}
 };
+
 
 int main()
 {
-	String string;
+	BinarySearchTree<int> binarySearchTree;
 
-	string = "Apple";
+	binarySearchTree.Insert(10);
+	binarySearchTree.Insert(15);
+	binarySearchTree.Insert(6);
+	binarySearchTree.Insert(7);
 
-	for (int i = 0; i < string.Size(); i++)
-	{
-		cout << string[i];
-	}
+	cout << binarySearchTree.Find(15) << endl;
 
-	string = "Banana";
+	binarySearchTree.Inorder(binarySearchTree.Root());
 
-	string.Append("Milk");
-
-	cout << endl;
-
-	for (int i = 0; i < string.Size(); i++)
-	{
-		cout << string[i];
-	}
 	return 0;
-
 }
+
+
+
+		
+
 
 
 
